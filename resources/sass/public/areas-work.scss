@@ -1,0 +1,268 @@
+/*
+* Areas of work
+* aow : areas of work
+*/
+
+.aow-frm {
+	position: relative;
+}
+
+.aow-frm1 {
+	text-align: center;
+
+	&.page-frame { padding-bottom: 0; }
+
+	.aow-frm__img-holder {
+		position: relative;
+		width: 100%;
+		height: 0;
+		padding-top: 56.25%;
+		margin-top: 40px;
+		border-radius: $border-radius-default;
+		overflow: hidden;
+	}
+}
+
+.aow-frm2 {
+	.aow-frm2__col {
+		width: calc(86%/3);
+		margin-left: 7%;
+		box-sizing: border-box;
+		vertical-align: top;
+
+		&:first-child,
+		&:nth-child(3n+1) { margin-left: 0; }
+
+		.aow-frm2__img-holder {
+			position: relative;
+			// width: 100%;
+			height: 0px;
+			padding-top: 56.25%;
+			margin-bottom: 40px;
+			box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+		}
+
+		.aow-frm2__desc { width: 100%; }
+	}
+
+	&.teaching-learning {
+		.aow-frm2__cntnr {
+			display: flex;
+			align-items: flex-start;
+			flex-wrap: wrap;
+			margin-bottom: 70px;
+
+			&:last-child { 
+				margin-bottom: 0; 
+
+				.aow-frm2__col:last-child { padding-left: 40px; }
+			}
+		}
+
+		.aow-frm2__col {
+			width: calc(100%/2);
+			margin-left: 0;
+
+			&:first-child {
+				padding-right: 70px;
+			}
+
+			.aow-frm2__img-holder {
+				position: relative;
+				// width: 100%;
+				height: 0px;
+				padding-top: 56.25%;
+				margin-bottom: 40px;
+				box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+			}
+		}
+	}
+}
+
+.aow-frm3 {
+	.aow-frm3__bg,
+	.aow-frm3__overlay {
+		right: 0;
+		left: auto;
+		width: 50%;
+	}
+
+	.aow-frm3__overlay { z-index: -1; }
+}
+
+.aow-frm4 {
+	.aow-frm4__cntnr {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+
+		.aow-frm4__col {
+			width: 50%;
+
+			&:last-child {
+				padding-left: 40px;
+			}
+
+			.aow-frm4__img-holder {
+				position: relative;
+				width: 100%;
+				height: 0;
+				padding-top: 56.25%;
+				box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+			}
+		}
+	}
+}
+
+.aow-frm5 {
+	// .aow-frm5__cntnr { margin-top: 70px; }
+	.aow-frm5__col {
+		position: relative;
+		width: 30%;
+		margin-left: 5%;
+		text-align: center;
+		vertical-align: top;
+		margin-top: 40px;
+
+		&:first-child,
+		&:nth-child(3n+1) { margin-left: 0; }
+
+		.aow-frm5__img-holder {
+			position: relative;
+			width: 120px;
+			height: 120px;
+			margin: 0 auto 40px;
+		}
+	}
+}
+
+
+.aow-frm6 {
+	.aow-frm6__slider { margin-top: 70px; }
+	.aow-frm6__col {
+		position: relative;
+		text-align: center;
+
+		.aow-frm6__img-holder {
+			position: relative;
+			width: 120px;
+			height: 120px;
+			border-radius: 8px;
+			overflow: hidden;
+			margin: 0 auto 40px;
+			box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+		}
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.aow-frm1 {
+		text-align: left;
+
+		&.page-frame { padding-bottom: 0; }
+
+		// .aow-frm__img-holder {
+		// 	display: none;
+		// }
+
+		.page-section__titleCon {
+			text-align: left;
+		}
+
+		h1 {
+			font-weight: normal;
+			font-size: $font-size-default;
+			color: $color-dullBlack;
+		}
+	}
+
+	.aow-frm2 {
+		.aow-frm2__col {
+			width: 100%;
+			margin-left: 0%;
+
+			.aow-frm2__img-holder {
+				margin-top: 40px;
+				order: 2;
+			}
+
+			.aow-frm2__desc { order: 1; }
+		}
+
+		&.teaching-learning {
+			.aow-frm2__cntnr {
+				display: flex;
+				align-items: flex-start;
+				margin-bottom: 70px;
+
+				&:last-child { 
+					margin-bottom: 0; 
+
+					.aow-frm2__col:last-child { padding-left: 0px; margin-top: 40px; }
+				}
+			}
+
+			.aow-frm2__col {
+				width: 100%;
+				margin-left: 0;
+
+				&:first-child {
+					padding-right: 0px;
+				}
+
+				// .aow-frm2__img-holder {
+				// 	&:first-child { height: 245px; }
+				// 	&:last-child {
+				// 		height: 345px;
+				// 		margin-bottom: 0;
+				// 	}
+				// }
+			}
+		}
+	}
+
+	.aow-frm3 {
+		.aow-frm3__bg,
+		.aow-frm3__overlay {
+			display: none;
+		}
+
+		.aow-frm3__content { width: 100%; }
+	}
+
+	.aow-frm4 {
+		.aow-frm4__cntnr {
+			.aow-frm4__col {
+				width: 100%;
+				order: 2;
+
+				&:last-child {
+					width: 100%;
+					padding-left: 0;
+					order: 1;
+					margin-bottom: 40px;
+				}
+			}
+		}
+	}
+
+	.aow-frm5 {
+		.width--45 { width: 100%; }
+	}
+}
+
+@media screen and (max-width: 568px) {
+	.aow-frm5 {
+		.aow-frm5__col {
+			position: relative;
+			width: 100%;
+			margin-left: 0%;
+			text-align: center;
+			vertical-align: top;
+
+			&:first-child,
+			&:nth-child(3n+1) { margin-left: 0; }
+		}
+	}
+}

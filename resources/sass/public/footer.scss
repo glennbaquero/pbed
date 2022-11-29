@@ -1,0 +1,26 @@
+.footer__con {
+	height: 75px;
+	background-color: $color-black;
+
+	.ftr__leftCon {
+
+		span {
+			margin: 0 10px;
+		}
+
+		a:hover {
+			color: $color-primary3;
+		}
+	}
+
+	.ftr__rightCon {
+
+		.ftr__ssLink {
+			margin-left: 45px;
+		}
+
+		img {
+			height: 23px;
+		}
+	}
+}

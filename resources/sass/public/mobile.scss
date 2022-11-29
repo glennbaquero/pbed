@@ -1,0 +1,576 @@
+@charset "utf-8";
+
+@media screen and (min-width: 1440px) {
+	.hm-fr2,
+	.hm-fr3,
+	.hm-fr5,
+	.hm-fr6,
+	.hm-fr7,
+	.hm-fr8 {
+		&.page-frame { padding: 70px 0; }
+
+		.hmfr2__card {
+			.hmfr2__innerCard {
+				.width--60 {
+					.hmfr2__desc {
+						max-height: 220px;
+					}
+				}
+
+				.hmfr2__sliderCon {
+					.slick-list {
+						.slick-slide {
+							padding: 0 70px;
+						}
+					}
+
+					.cstm__cardArrowCon {
+						padding: 0 70px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 1200px) {
+	.hdr__innerCon .nav-item {
+	    position: relative;
+	    margin: 0 6px;
+	}
+
+	.nav-side { display: none; }
+	.frm-body__hm {
+		overflow: initial !important;
+
+		.changeHeader {
+
+			img {
+				filter: initial;
+			}
+
+			.hdr__innerCon {
+				border-bottom: 1px solid $color-lighterGray;
+				background-color: $color-white;
+			}
+
+			.nav-item {
+
+				&::before {
+					background-color: $color-primary1;
+				}
+
+				a {
+					font-family: $font-secondary;
+					font-size: $font-size-smaller;
+					color: $color-primary1;
+				}
+			}
+
+			.hdr__spacing {
+				height: 71px;
+			}
+		}
+	}
+
+	.hm-fr1 {
+		height: auto !important;
+
+		.frm__sliderCon {
+			margin-bottom: 0;
+		}
+	}
+
+	.hm-fr2 {
+		height: auto !important;
+
+		&.page-frame { padding: 70px 0; }
+
+		.hmfr2__card {
+			height: auto;
+
+			.hmfr2__innerCard {
+				.width--40 {
+					height: 430px;
+				}
+			}
+		}
+	}
+
+	.hm-fr3 {
+		height: auto !important;
+	}
+
+	.hm-fr4 {
+		height: auto !important;
+
+		.hmfr4__card {
+			height: 540px;
+		}
+	}
+}
+
+@media screen and (max-width: 1110px) {
+	.hdr__innerCon {
+		.nav-item {
+		    position: relative;
+		    margin: 0 2px;
+		}
+
+		.width--90 {
+			width: 94%;
+		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	
+	.hm-fr1 {
+		height: auto !important;
+		overflow: visible;
+		background: #f1f1f1;
+
+		.hmfr1__sliderList {
+			height: auto;
+
+			.hm-fr1__mbl-bg {
+				position: relative;
+				width: 100%;
+				height: 0;
+				padding-top: 56.25%;
+			}
+
+			.hmfr1__sliderListBG {
+				height: 100%;
+			}
+
+			.hmfr1__sliderTextCon {
+				padding: 70px 0 120px;
+
+				h1 { color: $color-primary2; margin-bottom: 10px }
+				h4 { color: $color-dullBlack; }
+				* { text-shadow: none; }
+			}
+		}
+	}
+
+	.progressBarContainer {
+		bottom: 20px !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	.footer__con {
+		height: auto;
+		padding: 24px 5%;
+
+		.ftr__leftCon {
+			margin-bottom: 20px;
+		}
+
+		.ftr__rightCon,
+		.ftr__leftCon {
+			display: block;
+			text-align: center;
+			width: 100%;
+		}
+
+		.ftr__rightCon {
+			.ftr__ssLink {
+				margin: 0 20px;
+			}
+		}
+	}
+
+	.page-frame { padding: 40px 0; }
+	.width--80,
+	.width--85,
+	.width--70,
+	.width--75,
+	.width--65 { width: 90%; }
+
+	.hm-fr1 {
+		height: auto !important;
+
+		.hmfr1__sliderList {
+
+			.hmfr1__sliderTextCon {
+				padding: 40px 0 80px;
+			}
+		}
+
+		.progressBarContainer {
+			bottom: 40px;
+		}
+	}
+
+	.mbl-btn {
+		display: block;
+		text-align: center;
+	}
+
+	.hm-fr2 {
+		padding-top: 40px;
+
+		.hmfr2__card {
+			height: auto;
+
+			&.cstm-border-radius--8 { border-radius: 0; }
+			&.cstm-box-shadow-15 { box-shadow: none; }
+			&.overflow-hidden { overflow: visible; }
+
+			.hmfr2__innerCard {
+				height: 100%;
+
+				> div {
+					width: 100%;
+					display: block;
+				}
+
+				.width--40 { height: 468px; }
+				.width--60 {
+					p {
+						max-height: unset;
+						padding-right: 0;
+					}
+				}
+
+				.hmfr2__sliderCon {
+					.slick-list {
+						padding-bottom: 0;
+
+						.slick-slide { padding: 40px 3px; }
+					}
+					.cstm__cardArrowCon { 
+						padding: 0 3px; 
+						text-align: center;
+					}
+				}
+			}
+		}
+		.hmfr2__cardImg { border-radius: 8px; }
+	}
+
+	.hm-fr3 {
+		padding-bottom: 40px;
+
+		.hmfr3__innerCon {
+			height: auto;
+
+			.hmfr3__textCon {
+				width: 100%;
+				height: 100%;
+				padding-top: 8%;
+			}
+		}
+
+		.page-bg { 
+			left: 50%;
+			transform: translateX(-50%);
+			width: 90%; 
+			border-radius: 8px;
+		}
+
+		.hmfr3__bgCon {
+			position: relative;
+			width: 100%;
+			height: 468px;
+		}
+	}
+
+	.hm-fr4 {
+		min-height: unset;
+		padding-top: 40px;
+		height: auto !important;
+
+		.hmfr4__card {
+			height: auto;
+
+			&.cstm-border-radius--8 { border-radius: 0; }
+			&.cstm-box-shadow-15 { box-shadow: none; }
+			&.overflow-hidden { overflow: visible; }
+		}
+
+		.hmfr4__innerCard {
+			.width--50 {
+				width: 100%;
+				display: block;
+
+				&:first-child { margin-bottom: 40px; }
+				&:last-child { height: 468px; }
+			}
+
+			.cstm__cardArrowCon4 {
+				text-align: center;
+			}
+		}
+
+		.hmfr4__leftCon {
+			padding: 0;
+		}
+
+		.hmfr4__bgCon {
+			width: 100%;
+			height: 100%;
+
+			.hmfr4__cardImg {
+				border-radius: 8px;
+			}
+		}
+
+		.hm-fr4__desc {
+			max-height: unset;
+		}
+	}
+
+	.hm-fr5 {
+		min-height: unset;
+		background-color: $color-primary1;
+		padding-top: 40px;
+		height: auto !important;
+	}
+
+	.hm-fr6,
+	.hm-fr7,
+	.hm-fr8 {
+		min-height: unset;
+		padding-top: 40px;
+		height: auto !important;
+	}
+
+	.hm-fr7 {
+
+		.page__gridChild {
+			height: auto;
+			padding: 24px 0;
+		}
+
+		.page-grid {
+			display: grid;
+
+			&.grid-2 {
+				grid-template-columns: repeat(1, 1fr); 
+				grid-template-rows: repeat(1, 1fr); 
+				grid-column-gap: 0;
+				grid-row-gap: 0; 
+			}
+		}
+	}
+
+	.hm-fr8 {
+
+		.gen__tabNav {
+
+			li {
+				margin-right: 12px;
+			}
+
+			h3 {
+				font-size: $font-size-default;
+			}
+		}
+
+		.slick-list {
+			padding: 0 50px !important;
+		}
+
+		.slick-prev, .slick-next {
+			top: unset;
+			bottom: -40px;
+		}
+
+		.slick-prev {
+			left: 30%;
+		}
+
+		.slick-next {
+			right: 30%;
+			bottom: -39px;
+		}
+	}
+
+	.hm-fr9 {
+		height: auto !important;
+
+		.hmfr9__bgCon { display: none; }
+
+		.hmfr9__innerCon {
+			height: inherit;
+
+			.hmfr9__textCon {
+				width: 100%;
+				height: 100%;
+				padding-top: 40px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+
+		.slick-prev {
+			left: 35vw;
+			right: auto;
+		}
+
+		.slick-next {
+			right: 35vw;
+			left: auto;
+		}
+
+		.mbl-btn {
+			margin-top: 70px;
+		}
+
+		.hmfr9__sliderCon {
+			margin: 0;
+			margin-bottom: 90px;
+
+			.slick-list {
+				padding: 0;
+				padding-right: 0;
+				margin: 0 -8px;
+			}
+			
+
+			.slick-slide,
+			.slick-slide[aria-hidden="true"]:not(.slick-cloned) ~ .slick-cloned[aria-hidden="true"] {
+				margin-right: 0px;
+				margin: 0 8px;
+			}
+		}
+	}
+
+	.hm-fr10 {
+		height: auto !important;
+		padding-top: 40px;
+		padding-bottom: 0;
+
+		.hmfr10__leftCon {
+			width: 100%;
+			padding-right: 0%;
+			display: block;
+			margin-bottom: 40px;
+		}
+
+		.hmfr10__rightCon {
+			width: calc(100% + 12%);
+			height: 468px;
+			display: block;
+			margin-left: -6%;
+			border-radius: 0;
+		}
+
+		.btn {
+			display: block;
+			margin: auto;
+		}
+	}
+}
+
+@media screen and (max-width: 568px) {
+
+
+	.hm-fr2 {
+		.hmfr2__card {
+			.hmfr2__innerCard {
+				.width--40 { height: 368px; }
+			}
+		}
+	}
+
+	.hm-fr3 {
+		.hmfr3__bgCon {
+			height: 368px;
+		}
+	}
+
+	.hm-fr9 {
+		.hmfr9__sliderCon {
+			margin: 0;
+			margin-bottom: 90px;
+
+			.slick-list {
+				padding: 0;
+				padding-right: 0;
+				margin: 0 -8px;
+			}
+			
+
+			.slick-slide,
+			.slick-slide[aria-hidden="true"]:not(.slick-cloned) ~ .slick-cloned[aria-hidden="true"] {
+				margin-right: 0px;
+				margin: 0 8px;
+			}
+		}
+
+		.m-margin-t { text-align: center; }
+		.slick-prev {
+			left: 28vw;
+			right: auto;
+		}
+
+		.slick-next {
+			right: 28vw;
+			left: auto;
+		}
+	}
+
+	.hm-fr10 {
+		.hmfr10__rightCon {
+			height: 368px;
+		}
+	}
+
+	.gen__modal .modal-dialog {
+	    padding: 36px 24px;
+	}
+}
+
+
+@media screen and (max-width: 425px) {
+
+
+	.hm-fr2 {
+		.hmfr2__card {
+			.hmfr2__innerCard {
+				.width--40 { height: 320px; }
+			}
+		}
+	}
+
+	.hm-fr3 {
+		.hmfr3__bgCon {
+			height: 320px;
+		}
+	}
+
+	.hm-fr10 {
+		.hmfr10__rightCon {
+			height: 320px;
+		}
+	}
+}
+
+@media screen and (max-width: 375px) {
+
+	.hm-fr2 {
+		.hmfr2__card {
+			.hmfr2__innerCard {
+				.width--40 { height: 240px; }
+			}
+		}
+	}
+
+	.hm-fr3 {
+		.hmfr3__bgCon {
+			height: 240px;
+		}
+	}
+
+	.hm-fr10 {
+		.hmfr10__rightCon {
+			height: 240px;
+		}
+	}
+}

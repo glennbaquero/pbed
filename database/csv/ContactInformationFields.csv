@@ -1,0 +1,7 @@
+"contact_information_id","category_id","name","name_field","value","is_hidden","required"
+1,1,"First Name","FirstName","Adam",1,0
+1,1,"Last Name","LastName","Gentry",1,0
+1,1,"Title","Title","Chairman",1,0
+2,2,"First Name","FirstName","Alison",1,0
+2,2,"Last Name","LastName","Campbell",1,0
+2,2,"Title","Title","Executive",1,0

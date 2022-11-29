@@ -1,0 +1,84 @@
+/*=================================================================================
+|                                    VARIABLES                                    |
+=================================================================================*/
+
+//Primary Colors
+$color-primary1: #470000;		//Dark Maroon | Button Active
+$color-primary2: #762B1C;		//Maroon | h2 h3
+$color-primary3: #B56C58;		//Light Maroon | Labels small subtitles
+$color-primary4: #F5BC38;		//Yellow
+
+//Secondary Colors
+$color-white: #FFFFFF;			//White
+$color-black: #000000;			//Black
+$color-dullBlack: #2B2B2B;		//Dull Black | Text
+$color-darkerGray: #808080;		//Darker Gray | Input Border
+$color-gray: #BBBBBB;			//Gray | Border
+$color-lighterGray: #D2D2D2;	//Lighter Gray | Header Border
+$color-red: #A62E44;			//Red
+
+
+//Font Family
+$font-primary: 'barlow', sans-serif;		//Paragraph Text
+$font-secondary: 'museo_sans', sans-serif;	//
+
+$font-primary2: 'Inter';		//CIS
+$font-secondary2: 'Open Sans';	//
+
+
+//Font Size
+$font-size-default: 1rem;		//Default, Button | 16px
+$font-size-largest: 3rem;		//H1, Frame Title | 48px
+$font-size-larger: 1.938rem;	//H2, Section Title | 31px
+$font-size-large: 1.563rem;		//H3, Section Subtitle, Card Title | 25px
+$font-size-medium: 1.250rem;	//H4, Frame subtitle | 20px
+$font-size-small: 1rem;			//H5, Section Desc, Card Title | 16px
+$font-size-smaller: 0.813rem;	//H6, Nav Link, Footer  | 13px
+$font-size-smallest: 0.688rem;	//Small, Section Label, Card Label, Card small Label, Misc | 11px
+
+
+//Border-Radius
+$border-radius-default: 8px;	// Cards / FAQ
+$border-radius-5: 5px;			// Employee / News Thumbnail Small
+
+
+//Box Shadow
+$box-shadow-default: 0px 4px 10px rgba(0,0,0,0.15);	// Cards
+$box-shadow-15: 0px 4px 15px rgba(0,0,0,0.15);		// Cards / FAQ
+$box-shadow-1: 0px 1px 10px rgba(0,0,0,0.1);		// Cards
+
+
+//z-index notes
+//0-5 		- Background elements
+//6-10	 	- Midground elements
+//11-15		- Foreground elements
+//90		- Elements that includes Header
+//100		- Header
+//120		- Header Side Nav
+//150		- Modals | Pop Up 
+
+
+// Element - Font Family * Font Weight * Font Size | Line Height
+
+// Header
+// Navigation link - Museo Sans normal 13px | 16px
+// Footer Text - Museo Sans normal 13px | 15px
+
+// Fr1 Banner title - Museo Sans 600 48px | 58px
+// Fr1 Banner subtitle - Barlow 500 20px | 29px
+
+// Section Label - Barlow bold 11px | 13px 16px
+// Section Title - Museo Sans 600 31px | 37px
+// Section Subtitle - Barlow bold 25px | 36px
+// Section Desc - Barlow normal 16px | 19px 25px
+
+// Card Label - Barlow bold 11px | 13px
+// Card Title - Museo Sans 600 25px | 30px
+// Text - Barlow normal 16px | 25px 22px
+
+// Card Small Label - Barlow bold 11px | 13px
+// Card Small Title - Barlow bold 16px | 22px
+// Card Small Text - Barlow normal 16px | 22px
+// Card Small Card Misc Details - Barlow normal 11px | 13px
+
+// Button Text - Museo sans 600 16px

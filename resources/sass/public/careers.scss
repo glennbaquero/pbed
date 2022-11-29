@@ -1,0 +1,156 @@
+/*
+* Careers
+* crrs : careers
+*/
+
+.crrs-frm1 {
+	.width--90 {
+		border-bottom: 1px solid #bbb;
+	}
+
+	.crrs-frm1__cntnr {
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: wrap;
+		margin-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.crrs-frm1__card {
+		width: calc(93%/3);
+		margin-left: 3.5%;
+		margin-bottom: 40px;
+		display: flex;
+		align-items: center;
+		padding: 20px;
+
+		&:first-child,
+		&:nth-child(3n+1) { margin-left: 0; }
+
+		.crrs-frm1__img-holder {
+			position: relative;
+			width: 40%;
+		}
+
+		.crrs-frm1__content {
+			width: 60%;
+			padding-left: 20px;
+
+			a { cursor: pointer; }
+		}
+	}
+}
+
+.crrs-frm2 {
+	&.page-frame { padding-top: 0; }
+	.crrs-frm2__cntnr {
+		display: flex;
+		align-items: flex-start;
+		flex-wrap: wrap;
+
+		.cstm__card-2 {
+			width: calc(93%/3);
+			margin-left: 3.5%;
+			margin-bottom: 40px;
+
+			&:first-child,
+			&:nth-child(3n+1) { margin-left: 0; }
+
+			.cstm__crd2TextCon {
+				padding: 32px 24px;
+				background-color: $color-white;
+			}
+
+			a { cursor: pointer; }
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.crrs-frm1 {
+		.align-c { text-align: left; }
+		h1 { 
+			font-size: $font-size-large; 
+			font-family: $font-primary;
+		}
+
+		.crrs-frm1__cntnr {
+			margin-top: 28px;
+		}
+
+		.crrs-frm1__card {
+			width: calc(98%/2);
+			margin-left: 2%;
+
+			&:nth-child(3n+1) { margin-left: 2%; }
+			&:nth-child(2n+1) { margin-left: 0; }
+		}
+	}
+
+	.crrs-frm2 {
+		.crrs-frm2__cntnr {
+			.cstm__card-2 {
+				width: calc(98%/2);
+				margin-left: 2%;
+				margin-bottom: 40px;
+
+				&:nth-child(3n+1) { margin-left: 2%; }
+				&:nth-child(2n+1) { margin-left: 0%; }
+
+				.cstm__crd2TextCon {
+					padding: 32px 24px;
+					background-color: $color-white;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 568px) {
+	.crrs-frm1 {
+		.crrs-frm1__card {
+			width: 100%;
+			margin-left: 0%;
+			padding: 0;
+			margin-bottom: 20px;
+
+			&:nth-child(3n+1) { margin-left: 0%; }
+
+			.crrs-frm1__content {
+				.m-margin-b {
+					margin-bottom: 8px;
+				}
+			}
+		}
+	}
+
+	.crrs-frm2 {
+		.crrs-frm2__cntnr {
+			.cstm__card-2 {
+				width: 100%;
+				margin-left: 0%;
+				margin-bottom: 20px;
+
+				&:nth-child(3n+1) { margin-left: 0%; }
+				&:last-child { margin-bottom: 70px; }
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.crrs-frm1 {
+		.crrs-frm1__card {
+			.crrs-frm1__content {
+				padding: 8px 12px;
+				box-sizing: border-box;
+
+				.m-margin-b {
+					margin-bottom: 0;
+				}
+
+				.expiry { font-size: $font-size-smaller; }
+			}
+		}
+	}
+}

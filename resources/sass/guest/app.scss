@@ -1,0 +1,25 @@
+// Fonts
+@import '../../fonts/museoSans/stylesheet.css';
+@import '../../fonts/barlow/stylesheet.css';
+
+// Helpers
+@import '../helpers/transitions.scss';
+@import '../helpers/_variable.scss';
+@import '../helpers/_reset.scss';
+@import '../helpers/_helpers.scss';
+@import '../helpers/_mixins.scss';
+
+// Styles
+@import '../public/general.scss';
+@import '../public/header.scss';
+@import '../public/footer.scss';
+@import '../public/home.scss';
+@import '../public/areas-work.scss';
+@import '../public/organization.scss';
+@import '../public/project.scss';
+@import '../public/youthworksph.scss';
+@import '../public/news.scss';
+@import '../public/careers.scss';
+@import '../public/contact-us.scss';
+@import '../public/login.scss';
+@import '../public/mobile.scss';

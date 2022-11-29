@@ -1,0 +1,99 @@
+/*****
+** LOGIN
+*****/
+
+.frm-login__bg {
+	width: 55%;
+	left: auto;
+	right: 0;
+}
+
+.frm-login {
+	position: relative;
+	width: 45%;
+	height: 100vh;
+
+	.frm-login__card {
+		height: 100%;
+		background: #fff;
+	}
+
+
+	.card {
+		width: 65%;
+		margin: auto;
+		padding: 0;
+		border: none;
+
+		h2 { color: #545454 }
+	}
+
+	.frm-login__logo-hldr {
+		position: relative;
+		width: 100%;
+		height: 92px;
+		margin-bottom: 20px;
+	}
+
+	.forgot-pw {
+		font-size: 14px;
+		color: #b7b7b7;
+		font-style: italic;
+		text-decoration: underline;
+		font-family: $font-primary;
+	}
+
+	.frm--input {
+		.show_hide_password {
+			.showPass {
+				left: auto;
+				right: 18px !important;
+				border-right: 0;
+				text-align: center;
+				z-index: 9;
+				cursor: pointer;
+				pointer-events: initial;
+			}
+		}
+		input {
+			&.prepend {
+				~ i { 
+					top: 17px;
+					left: 22px;
+					right: auto !important;
+					bottom: auto !important;
+					width: 28px;
+					border-right: 1px solid #d3d3d3;
+					color: #d3d3d3;
+				}
+			}
+
+			&.append {
+				pointer-events: initial;
+				padding-right: 60px;
+			}
+		}
+	}
+}
+
+
+.frm-login--admin {
+	.frm-login {
+		width: 100%;
+		margin: auto;
+	}
+
+	.frm-login__card {
+		height: 100%;
+		background: transparent;
+	}
+
+	.card {
+		width: 30%;
+		margin: auto;
+		padding: 24px;
+		border-radius: 0;
+		background: #fff;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+}

@@ -1,0 +1,16 @@
+// Fonts
+@import '../fonts/Inter/style.css';
+@import '../fonts/openSans/style.css';
+@import '../fonts/museoSans/stylesheet.css';
+@import '../fonts/barlow/stylesheet.css';
+
+// Helpers
+@import './helpers/transitions.scss';
+@import './helpers/_variable.scss';
+@import './helpers/_helpers.scss';
+@import './helpers/_mixins.scss';
+
+// Styles
+// @import '../public/general.scss';
+@import './public/login.scss';
+@import './public/dashboard.scss';
