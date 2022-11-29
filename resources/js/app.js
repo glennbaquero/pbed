@@ -15,7 +15,7 @@ Vue.use(VueTheMask);
 import * as VueGoogleMaps from 'vue2-google-maps';
 Vue.use(VueGoogleMaps, {
   load: {
-    key: 'AIzaSyAuMW2pM8gTOOR_-AbYxIuDh0hSn6KL1vg',
+    key: '',
     libraries: 'places', // This is required if you use the Autocomplete plugin
     // OR: libraries: 'places,drawing'
     // OR: libraries: 'places,drawing,visualization'
