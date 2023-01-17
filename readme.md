@@ -1,5 +1,4 @@
 # PBEd Public Wesbite and Contact Information System
-### Powered by laravel-system-boilerplate 
 
 ### Installation Guide
 Copy .env.example for values basis
